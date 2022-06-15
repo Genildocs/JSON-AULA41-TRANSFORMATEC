@@ -5,7 +5,7 @@ function getPizza(event){
 
     const json_data = Object.fromEntries(data.entries())
 
-    form.taste = data.getAll('taste')
+    json_data.taste = data.getAll('taste')
 
     const pre = document.querySelector('pre') 
 
