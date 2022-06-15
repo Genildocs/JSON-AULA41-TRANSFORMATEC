@@ -43,6 +43,9 @@ input{
     cursor: pointer;
 }
 
-
+.btn:hover{
+    background-color: aquamarine;
+    transition: 2s;
+}
     
     
